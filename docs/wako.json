@@ -491,7 +491,7 @@
                 "motivation": "describing",
                 "body": {
                   "type": "TextualBody",
-                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p><ruby>八卦<rp>(</rp><rt>はっけ</rt><rp>)</rp></ruby>の三角旗を持つ兵</p></div>",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p><a target=\"_blank\" href=\"https://ja.wikipedia.org/wiki/%E5%85%AB%E5%8D%A6\"><ruby>八卦<rp>(</rp><rt>はっけ</rt><rp>)</rp></ruby></a>の三角旗を持つ兵</p></div>",
                   "format": "text/html"
                 },
                 "target": {
@@ -519,7 +519,7 @@
                 "motivation": "describing",
                 "body": {
                   "type": "TextualBody",
-                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p><ruby>八卦<rp>(</rp><rt>はっけ</rt><rp>)</rp></ruby>を描いた旗を持つ兵</p></div>",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p><a target=\"_blank\" href=\"https://ja.wikipedia.org/wiki/%E5%85%AB%E5%8D%A6\"><ruby>八卦<rp>(</rp><rt>はっけ</rt><rp>)</rp></ruby></a>を描いた旗を持つ兵</p></div>",
                   "format": "text/html"
                 },
                 "target": {
