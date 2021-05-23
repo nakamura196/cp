@@ -1,0 +1,671 @@
+{
+    "@context": [
+      "http://iiif.io/api/presentation/3/context.json",
+      "http://www.w3.org/ns.anno.jsonld"
+    ],
+    "id": "https://nakamura196.github.io/iiif0/iiif/wakan.json",
+    "type": "Manifest",
+    "viewingDirection": "left-to-right",
+    "behavior": [
+      "individuals"
+    ],
+    "items": [
+      {
+        "items": [
+          {
+            "items": [
+              {
+                "body": {
+                  "service": [
+                    {
+                      "profile": "level1",
+                      "type": "ImageService2",
+                      "id": "https://nakamura196.github.io/iiif0/files/tile/wakan"
+                    }
+                  ],
+                  "format": "image/jpeg",
+                  "height": 3000,
+                  "width": 42000,
+                  "type": "Image",
+                  "id": "https://nakamura196.github.io/iiif0/files/tile/wakan/full/full/0/default.jpg"
+                },
+                "motivation": "painting",
+                "type": "Annotation",
+                "target": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1"
+              }
+            ],
+            "type": "AnnotationPage"
+          }
+        ],
+        "label": {
+          "en": [
+            "Object image 0"
+          ]
+        },
+        "width": 42000,
+        "height": 3000,
+        "type": "Canvas",
+        "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1",
+        "annotations": [
+          {
+            "id": "https://iiif.vam.ac.uk/collections/O1023003/annopage/p1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a2",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">（１）倭寇船の登場</h2><div class=\"annotatedzoom-annotation-detail__content\"><p>画面右端から小・中・大と、三隻の倭寇船が描かれ、遠くからだんだん近づいてきているさまが表現される。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=34546,367,7233,2409",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a3",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>小</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=41200,444,460,336",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a4",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>中</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=39740,832,1280,1104 ",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a5",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>大</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=34568,240,3032,2520 ",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a6",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">（２）倭寇の上陸</h2><div class=\"annotatedzoom-annotation-detail__content\"><p>倭寇船が二隻着岸している。船の中には女性が二人描かれている。おそらく掠奪されてきた女性であろう。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=32000,152,5880,2736",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a7",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>おそらく掠奪されてきた女性（１）</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=36232,1924,558,562",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a8",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>おそらく掠奪されてきた女性（２）</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=36952,1608,568,430",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a9",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">（３）形勢観望</h2><div class=\"annotatedzoom-annotation-detail__content\"><p>岩の上で、一人の倭寇の肩にもう一人の倭寇が立ち、長槍を支えに形勢を眺めている。岩の下には刀を手にした倭寇たちがたむろし、弓で白鳥を狙っている者もいる。注目されるのは、鉄砲らしき物を持っている倭寇がいることで、これが、本図が後期倭寇を描いたものであるという説の根拠となっている。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=28728,136,3496,2728",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a10",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>岩の上で、一人の倭寇の肩にもう一人の倭寇が立ち、長槍を支えに形勢を眺めている。</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=31490,798,432,802",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a11",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>岩の下には刀を手にした倭寇たちがたむろ</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=29268,1656,2104,1168",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a12",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>弓で白鳥を狙っている者</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=29404,384,1644,1584",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a13",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>注目されるのは、鉄砲らしき物を持っている倭寇がいることで、これが、本図が後期倭寇を描いたものであるという説の根拠となっている。 </p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=29928,1998,276,541",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a14",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">（４）掠奪・放火</h2><div class=\"annotatedzoom-annotation-detail__content\"><p>倭寇たちが袋や宝箱をかつぎ、船に戻っていっている。その先には長い松明のようなもので火をつけられ、燃え上がる屋敷が描かれる。屋敷の中からは倭寇が袋を担いで出てきており、掠奪ののち放火したものであろう。倭寇たちは全員ざんばら髪のはだしである。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=24032,208,4952,2656",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a15",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>倭寇たちが袋や宝箱をかつぎ、船に戻っていっている。</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=26776,1496,1256,1080",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a16",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>長い松明のようなもので火をつけられ、燃え上がる屋敷</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=24228,1208,1462,1138",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a17",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>倭寇たちは全員ざんばら髪のはだしである。</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=24771,1798,263,445",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a18",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">（５）避難する人々</h2><div class=\"annotatedzoom-annotation-detail__content\"><p>子供を負い、あるいは手を引いて避難する人々の姿が描かれている。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=20404,1932,2516,944",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a19",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">（６）海上合戦</h2><div class=\"annotatedzoom-annotation-detail__content\"><p>倭寇船二隻・明船二隻が合戦中である。倭寇側は口に矢を受けて倒れる者、足に矢を受けて水中に落ちる者、すでに溺れようとしている者などがおり、明軍に圧倒されつつある。画面後方には逃れて一息つく避難民の一団が詳細に描かれている。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=11864,872,5832,1840",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a20",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>口に矢を受けて倒れる者</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=15891,2171,395,358",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a21",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>足に矢を受けて水中に落ちる者</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=16169,2182,539,278",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a22",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>すでに溺れようとしている者</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=16146,2585,308,164",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a23",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>逃れて一息つく避難民の一団</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=15450,522,2050,630",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a24",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">（７）勝報</h2><div class=\"annotatedzoom-annotation-detail__content\"><p>「報捷」 と旗をなびかせて騎馬武者が一人、太鼓橋をかけあがろうとしている。橋の反対側にはすでに明の援軍の先頭がさしかかっている。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=7776,708,3872,1976",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a25",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>「報捷」 と旗をなびかせて騎馬武者</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=11030,756,610,716",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a26",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">（８）勝報</h2><div class=\"annotatedzoom-annotation-detail__content\"><p>図巻末尾、「海防新堡」と書かれた城門から続々と明軍が繰り出してきている。刀に盾を持つ兵・騎馬武者・長槍隊・偃月刀を持つ兵・幟を持つ騎馬武者・鎌槍を持つ兵・八卦の三角旗を持つ兵・騎馬武者・八卦を描いた旗を持つ兵という構成の堂々とした進軍である。城門上にはたくさんの旗がはためき、二人の人物が明軍の出撃を見守っている。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=1504,336,7816,2416",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a27",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>刀に盾を持つ兵</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=8482,1668,732,750",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a28",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>騎馬武者</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=8293,1789,431,531",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a29",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>長槍隊</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=6408,1352,2160,1204",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a30",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>偃月刀を持つ兵</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=5652,1622,978,1090",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a31",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>幟を持つ騎馬武者</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=5396,1232,660,1328",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a32",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>鎌槍を持つ兵</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=4470,1760,1312,940",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a33",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>八卦の三角旗を持つ兵</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=3860,1692,1220,1012",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a34",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>騎馬武者</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=2696,1516,1640,1356",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a35",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>八卦を描いた旗を持つ兵</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=1734,1484,1218,938",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/a36",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>城門上にはたくさんの旗がはためき、二人の人物が明軍の出撃を見守っている。</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=1608,340,1296,540",
+                  "type": "Canvas"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "label": {
+      "en": [
+        "Cunard Line - to all parts of the world"
+      ]
+    },
+    "metadata": [
+      {
+        "value": {
+          "en": [
+            "E.1829-2004"
+          ]
+        },
+        "label": {
+          "en": [
+            "Museum number"
+          ]
+        }
+      },
+      {
+        "value": {
+          "en": [
+            "Cunard Line - to all parts of the world"
+          ]
+        },
+        "label": {
+          "en": [
+            "title"
+          ]
+        }
+      },
+      {
+        "value": {
+          "en": [
+            "Chromolithograph travel poster for \"Cunard Line - to all parts of the world\", depicting a cross section of the Aquitania at sea, printed by Thos. Forman & Sons, Nottingham, ca. 1920."
+          ]
+        },
+        "label": {
+          "en": [
+            "Descriptive Line"
+          ]
+        }
+      },
+      {
+        "value": {
+          "en": [
+            "PDP"
+          ]
+        },
+        "label": {
+          "en": [
+            "Collection"
+          ]
+        }
+      },
+      {
+        "value": {
+          "en": [
+            "Nottingham (printed)"
+          ]
+        },
+        "label": {
+          "en": [
+            "Place"
+          ]
+        }
+      },
+      {
+        "value": {
+          "en": [
+            "chromolithograph"
+          ]
+        },
+        "label": {
+          "en": [
+            "Materials & Techniques"
+          ]
+        }
+      },
+      {
+        "value": {
+          "en": [
+            "ca. 1920 (made)"
+          ]
+        },
+        "label": {
+          "en": [
+            "Date"
+          ]
+        }
+      },
+      {
+        "value": {
+          "en": [
+            "Posters;Boats and ships;Tourism & Travel"
+          ]
+        },
+        "label": {
+          "en": [
+            "Categories"
+          ]
+        }
+      },
+      {
+        "value": {
+          "en": [
+            "Chromolithograph travel poster for \"Cunard Line - to all parts of the world\", depicting a cross section of the Aquitania at sea, printed by Thos. Forman & Sons, Nottingham, ca. 1920."
+          ]
+        },
+        "label": {
+          "en": [
+            "Description"
+          ]
+        }
+      }
+    ],
+    "seeAlso": [
+      {
+        "type": "Dataset",
+        "id": "https://collections.vam.ac.uk/item/O1023003.jsonld",
+        "@format": "application/ld+json"
+      }
+    ]
+  }
