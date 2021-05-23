@@ -71,7 +71,7 @@
                 "motivation": "describing",
                 "body": {
                   "type": "TextualBody",
-                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>小</p></div>",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>倭寇船（小）</p></div>",
                   "format": "text/html"
                 },
                 "target": {
@@ -85,7 +85,7 @@
                 "motivation": "describing",
                 "body": {
                   "type": "TextualBody",
-                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>中</p></div>",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>倭寇船（中）</p></div>",
                   "format": "text/html"
                 },
                 "target": {
@@ -99,7 +99,7 @@
                 "motivation": "describing",
                 "body": {
                   "type": "TextualBody",
-                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>大</p></div>",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>倭寇船（大）</p></div>",
                   "format": "text/html"
                 },
                 "target": {
