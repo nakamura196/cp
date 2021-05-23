@@ -449,7 +449,7 @@
                 "motivation": "describing",
                 "body": {
                   "type": "TextualBody",
-                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>偃月刀を持つ兵</p></div>",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p><a target=\"_blank\" href=\"https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%88%80_(%E4%B8%AD%E5%9B%BD%E3%81%AE%E6%AD%A6%E5%99%A8)\"><ruby>偃月刀<rp>(</rp><rt>えんげつとう</rt><rp>)</rp></ruby></a>を持つ兵</p></div>",
                   "format": "text/html"
                 },
                 "target": {
@@ -491,7 +491,7 @@
                 "motivation": "describing",
                 "body": {
                   "type": "TextualBody",
-                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>八卦の三角旗を持つ兵</p></div>",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p><ruby>八卦<rp>(</rp><rt>はっけ</rt><rp>)</rp></ruby>の三角旗を持つ兵</p></div>",
                   "format": "text/html"
                 },
                 "target": {
@@ -519,7 +519,7 @@
                 "motivation": "describing",
                 "body": {
                   "type": "TextualBody",
-                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p>八卦を描いた旗を持つ兵</p></div>",
+                  "value": "<div class=\"annotatedzoom-annotation-detail__content\"><p><ruby>八卦<rp>(</rp><rt>はっけ</rt><rp>)</rp></ruby>を描いた旗を持つ兵</p></div>",
                   "format": "text/html"
                 },
                 "target": {
