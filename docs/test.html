@@ -52,8 +52,15 @@
     viewer.parentNode.replaceChild(mobileFixWrapper, viewer);
     mobileFixWrapper.appendChild(viewer);
   }
+
+  var url = new URL(window.location.href);
+
+  // URLSearchParamsオブジェクトを取得
+  var params = url.searchParams;
+  const u = params.get("u") || "wako2.json"
+
   slideShowViewer.create(viewer, {
-    manifestUri: 'wako2.json',
+    manifestUri: u,
   });
 </script>
 </body>
