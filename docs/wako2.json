@@ -98,10 +98,10 @@
       "id": "https://digirati.com/balenciaga/c1",
       "type": "Canvas",
       "behavior": ["info-position-left", "layout-split"],
-      "label": { "en": ["はじめてのタイトル"] },
+      "label": { "en": ["拾芥抄"] },
       "summary": {
         "en": [
-          "ここに色々とかくみたい"
+          "<div style=\"text-align:right;\">（重要文化財）</div><p>南北朝時代・14世紀</p><br/><br/><p>拾芥抄は洞院公賢が著したとされる百科全書的な書物。</p><p>これは「八省指図」の部分で、平安宮研究の基本史料です。</p><p>史料本は諸本のうちで書写された時期が最も古いもの。</p>"
         ]
       },
       "width": 4472,
@@ -125,19 +125,11 @@
               "motivation": "painting",
               "body": {
                 "id":
-                  "https://dlc.services/iiif-img/5/3/0144b453-e7c8-4dc7-ad3d-2da1dddffaea/full/full/0/default.jpg",
+                  "https://www.hi.u-tokyo.ac.jp/news/news-2007/100ex/syuugaisyo.JPG",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 4472,
-                "height": 6742,
-                "service": [
-                  {
-                    "id":
-                      "https://dlc.services/iiif-img/5/3/0144b453-e7c8-4dc7-ad3d-2da1dddffaea",
-                    "type": "ImageService2",
-                    "profile": "level1"
-                  }
-                ]
+                "width": 917,
+                "height": 583
               },
               "target": "https://digirati.com/balenciaga/c1"
             }
