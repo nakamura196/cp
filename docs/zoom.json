@@ -1,0 +1,173 @@
+{
+    "@context": [
+      "http://digirati.com/canvaspanel/vocab.json",
+      "http://www.w3.org/ns/anno.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://nakamura196.github.io/iiif0/iiif/wakan.json",
+    "type": "Manifest",
+    "label": { "en": ["Balenciaga: Master Craftsman"] },
+    "metadata": [
+      {
+        "label": { "en": ["Comment"] },
+        "value": {
+          "en": [
+            "Next: Add use of annotation to indicate point of interest (could be a highlighting motivation)"
+          ]
+        }
+      },
+      {
+        "label": { "en": ["Comment"] },
+        "value": {
+          "en": [
+            "That will appear in Mirador or UV, probably not used in presentation viewer"
+          ]
+        }
+      }
+    ],
+    "summary": {
+      "en": [
+        "Known as 'The Master' of haute couture, Cristóbal Balenciaga revolutionised the female silhouette"
+      ]
+    },
+    "thumbnail": [
+      {
+        "id": "#TODO",
+        "type": "Image",
+        "width": 200,
+        "height": 300,
+        "service": [
+          {
+            "id": "#TODO",
+            "type": "ImageService2",
+            "profile": "level1"
+          }
+        ]
+      }
+    ],
+    "posterCanvas": {
+      "id": "https://digirati.com/balenciaga2/poster",
+      "requiredStatement": {
+        "label": { "en": [""] },
+        "value": {
+          "en": [
+            "<a href=\"#\" title=\"Evening outfit\">Evening outfit</a> (1967)<br/><a href=\"#\">by Cristóbal Balenciaga</a><br/>The Victoria and Albert Museum"
+          ]
+        }
+      },
+      "width": 42000,
+      "height": 3000,
+      "label": { "en": ["Balenciaga: Master Craftsman"] },
+      "summary": {
+        "en": [
+          "Known as 'The Master' of haute couture, Cristóbal Balenciaga revolutionised the female silhouette"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://digirati.com/balenciaga2/poster/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digirati.com/balenciaga2/poster/page/imageanno1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id":
+                  "https://nakamura196.github.io/iiif0/files/tile/wakan/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 42000,
+                "height": 3000,
+                "service": [
+                  {
+                    "id":
+                      "https://nakamura196.github.io/iiif0/files/tile/wakan",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://digirati.com/balenciaga2/poster"
+            }
+          ]
+        }
+      ]
+    },
+    "rights": "https://creativecommons.org/licenses/by/4.0/",
+    "homepage": {
+      "id": "#TODO - this can link to the page on V&A for the narrative viewer",
+      "type": "Text",
+      "label": { "en": ["Home page Balenciaga"] },
+      "format": "text/html"
+    },
+    "items": [
+    
+      {
+        "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1",
+        "type": "Canvas",
+        "behavior": ["info-position-right", "layout-split"],
+        "label": { "en": ["倭寇図巻"] },
+        "summary": {
+          "en": [
+            "明末清初・17世紀<br/><br/>中国沿岸を荒らしまわった倭寇を中国人画家が描いたものです。<br/>月代（さかやき）を剃った日本人として描かれたこの姿は、海賊・倭寇のイメージとしてあまりに有名です。<br/>歴史教科書にも登場するこの絵巻をぜひお見逃しなく！"
+          ]
+        },
+        "width": 42000,
+        "height": 3000,
+        "requiredStatement": {
+          "label": { "en": [""] },
+          "value": {
+            "en": [
+              "<a href=\"#\" title=\"東京大学史料編纂所\">東京大学史料編纂所</a>"
+            ]
+          }
+        },
+        "items": [
+          {
+            "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/page",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1/page/imageanno1",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id":
+                    "https://nakamura196.github.io/iiif0/files/tile/wakan/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "width": 42000,
+                  "height": 3000,
+                  "service": [
+                    {
+                      "id":
+                        "https://nakamura196.github.io/iiif0/files/tile/wakan",
+                      "type": "ImageService2",
+                      "profile": "level1"
+                    }
+                  ]
+                },
+                "target": "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "id": "https://digirati.com/balenciaga2/c3/annos",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://digirati.com/balenciaga2/c3/annos/1",
+                "type": "Annotation",
+                "motivation": "layout-viewport-focus",
+                "target":
+                  "https://nakamura196.github.io/iiif0/iiif/wakan/canvas/p1#xywh=14250,1690,1846,1028"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
