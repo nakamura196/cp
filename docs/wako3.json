@@ -1,0 +1,119 @@
+{
+    "@context": [
+      "http://iiif.io/api/presentation/3/context.json",
+      "http://www.w3.org/ns.anno.jsonld"
+    ],
+    "id": "https://nakamura196.github.io/iiif0/iiif/wakozukan.json",
+    "type": "Manifest",
+    "viewingDirection": "left-to-right",
+    "behavior": [
+      "individuals"
+    ],
+    "items": [
+      {
+        "items": [
+          {
+            "items": [
+              {
+                "body": {
+                  "service": [
+                    {
+                      "profile": "level1",
+                      "type": "ImageService2",
+                      "id": "https://nakamura196.github.io/iiif0/files/tile/wakozukan"
+                    }
+                  ],
+                  "format": "image/jpeg",
+                  "height": 6615,
+                  "width": 90916,
+                  "type": "Image",
+                  "id": "https://nakamura196.github.io/iiif0/files/tile/wakozukan/full/full/0/default.jpg"
+                },
+                "motivation": "painting",
+                "type": "Annotation",
+                "target": "https://nakamura196.github.io/iiif0/iiif/wakozukan/canvas/p1"
+              }
+            ],
+            "type": "AnnotationPage"
+          }
+        ],
+        "label": {
+          "en": [
+            "Image 1"
+          ],
+          "ja": [
+            "画像 1"
+          ]
+        },
+        "width": 90916,
+        "height": 6615,
+        "type": "Canvas",
+        "id": "https://nakamura196.github.io/iiif0/iiif/wakozukan/canvas/p1",
+        "annotations": [
+          {
+            "id": "https://iiif.vam.ac.uk/collections/O1023003/annopage/p1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakozukan/canvas/p1/a1",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">赤外線写真との比較（１）</h2><div class=\"annotatedzoom-annotation-detail__content\"><img class=\"annotatedzoom-annotation-detail__image\" src=\"assets/img/1.png\" width=100% height=250/><p><br/><a target=\"_blank\" href=\"https://nakamura196.github.io/cp/dee-sbs/?u=https://nakamura196.github.io/iiif0/files/tile/1/original/info.json;https://nakamura196.github.io/iiif0/files/tile/1/infra/info.json\">こちら</a>で比較できます。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakozukan/canvas/p1#xywh=27844,3162,522,830",
+                  "type": "Canvas"
+                }
+              },
+              {
+                "id": "https://nakamura196.github.io/iiif0/iiif/wakozukan/canvas/p1/a3",
+                "type": "Annotation",
+                "motivation": "describing",
+                "body": {
+                  "type": "TextualBody",
+                  "value": "<h2 class=\"annotatedzoom-annotation-detail__label\">赤外線写真との比較（３）</h2><div class=\"annotatedzoom-annotation-detail__content\"><img class=\"annotatedzoom-annotation-detail__image\" src=\"assets/img/3.png\" width=100% height=250/><p><br/><a target=\"_blank\" href=\"https://nakamura196.github.io/cp/dee-sbs/?u=https://nakamura196.github.io/iiif0/files/tile/3/original/info.json;https://nakamura196.github.io/iiif0/files/tile/3/infra/info.json\">こちら</a>で比較できます。</p><p class=\"annotatedzoom-annotation-detail__credit\">須田牧子, 『倭寇図巻』再考, 東京大学史料編纂所研究紀要, 第22号, 2012年３月, p.192.</p></div>",
+                  "format": "text/html"
+                },
+                "target": {
+                  "id": "https://nakamura196.github.io/iiif0/iiif/wakozukan/canvas/p1#xywh=25952,2064,888,712",
+                  "type": "Canvas"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "label": {
+      "en": [
+        "Wako Zukan"
+      ],
+      "ja" : [
+        "倭寇図巻"
+      ]
+    },
+    "metadata": [
+      {
+        "value": {
+          "en": [
+            "test_value"
+          ]
+        },
+        "label": {
+          "en": [
+            "test_label"
+          ]
+        }
+      }
+    ],
+    "seeAlso": [
+      {
+        "type": "Dataset",
+        "id": "https://collections.vam.ac.uk/item/O1023003.jsonld",
+        "@format": "application/ld+json"
+      }
+    ]
+  }

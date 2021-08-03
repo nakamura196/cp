@@ -26,8 +26,14 @@
 <script src="full-page-plugin.js"></script>
 <script>
 
+  var url = new URL(window.location.href);
+
+  // URLSearchParamsオブジェクトを取得
+  var params = url.searchParams;
+  const u = params.get("u") || "wako.json"
+
   fullPageCanvasPanelPlugin.create(document.getElementById('viewer'), {
-    manifest: "wako.json"
+    manifest: u
   });
 </script>
 </body>
